@@ -4,8 +4,7 @@
       "type": "http",
       "url": "https://stitch.googleapis.com/mcp",
       "headers": {
-        "Authorization": "Bearer ${STITCH_ACCESS_TOKEN}",
-        "X-Goog-User-Project": "${STITCH_PROJECT_ID}"
+        "X-Goog-Api-Key": "${STITCH_API_KEY}"
       }
     }
   }
